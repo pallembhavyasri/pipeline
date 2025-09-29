@@ -1,5 +1,5 @@
 pipeline{
-    agent any{
+    agent any
         stages{
             stage("Bulid"){
                 steps{
@@ -18,4 +18,3 @@ pipeline{
             }
         }
     }
-}
