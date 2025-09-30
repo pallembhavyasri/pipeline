@@ -13,7 +13,6 @@ properties([
     ])
 ])
 node{
-        stages{
             stage("Bulid"){
                 steps{
                     echo "This is bulid stage"
@@ -35,4 +34,3 @@ node{
                 }
             }
         }
-    }
